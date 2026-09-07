@@ -1362,12 +1362,12 @@ function updateNavigation() {
     if (isLastPage) {
 
         DOM.nextBtn.textContent =
-            "Finish Quiz âœ“";
+            "Finish Quiz ✓";
 
     } else {
 
         DOM.nextBtn.textContent =
-            "Next â†’";
+            "Next →";
 
     }
 
@@ -1424,7 +1424,7 @@ function updateProgress() {
 
 
         DOM.questionCounter.textContent =
-            `Questions ${firstQuestionNumber}â€“${lastQuestionNumber} / ${totalQuestions}`;
+            `Questions ${firstQuestionNumber} →${lastQuestionNumber} / ${totalQuestions}`;
 
     }
 
